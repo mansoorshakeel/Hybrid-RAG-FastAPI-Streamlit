@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtualenv
+.venv/
+venv/
+
+# Secrets
+**/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (keep user docs local)
+data/
+backend/.env
+backend/bm25_values.json
+data/
+*.pdf
+*.docx
+notebook/bm25_values.json

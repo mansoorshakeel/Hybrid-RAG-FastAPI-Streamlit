@@ -1,16 +1,13 @@
 fastapi
 uvicorn[standard]
 python-dotenv
-
 langchain
 langchain-community
 langchain-text-splitters
-
 langchain-huggingface
 sentence-transformers
-
 langchain-pinecone
 pinecone[grpc]
-
+pinecone-text
 pypdf
 docx2txt
